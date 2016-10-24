@@ -6,8 +6,15 @@
   "plugins": [
     "toggle-chapters",
     "ungrey",
-    "splitter"
+    "splitter",
+    "ga"
   ],
+  "pluginsConfig": {
+    "ga": {
+      "token": "UA-86203452-1"
+    }
+  },
+
   "variables": {
     "title": "Securing Applications and Services Guide",
     "project": {
